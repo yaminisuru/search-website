@@ -1,0 +1,84 @@
+/* src/App.css */
+
+/* App.css */
+
+/* General styles for the body */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6b7aff, #f06595); /* Gradient background */
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  /* Styles for the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height to center vertically */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+  }
+  
+  /* Styles for the SearchBar component container */
+  .search-container {
+    background: #ffffff; /* White background for contrast */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Ensure the SearchBar component has proper styling */
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db; /* Primary color border */
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .search-bar input::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
+  /* Input focus effect */
+  .search-bar input:focus {
+    border-color: #2980b9; /* Darker shade for focus */
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.3); /* Light blue shadow */
+  }
+  
+  /* Button with hover animation */
+  .search-button {
+    background-color: #3498db; /* Primary color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .search-button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge */
+  }
+  
