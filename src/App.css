@@ -6,7 +6,6 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #6b7aff, #f06595); /* Gradient background */
     color: #333;
     overflow-x: hidden; /* Prevent horizontal scroll */
   }
